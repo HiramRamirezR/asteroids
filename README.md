@@ -28,6 +28,10 @@ A simple asteroids game made with Python and Pygame.
 
 Collision detection is implemented between the player and the asteroids. The game checks for collisions in every frame. If the player's sprite collides with any of the asteroid sprites, the game ends, and a "Game over!" message is printed to the console.
 
+## Gameplay
+
+![Asteroids Gameplay](img/asteroids.gif)
+
 ## To-Do
 
 *   Implement shooting mechanics for the player.
