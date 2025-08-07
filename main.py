@@ -41,6 +41,12 @@ def main():
 
         updatable.update(dt)
 
+        #Check if there's a collision
+        for asteroid in asteroids:
+            if player.collide(asteroid):
+                print("Game over!")
+                return
+
         pygame.display.flip()
 
 if __name__ == "__main__":
